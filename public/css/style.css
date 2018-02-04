@@ -1,8 +1,52 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+    padding: 1em;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
+
 .center{
     text-align: center;
+}
+
+.middle{
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 18%;
 }
 
 .other-center{
     display: block;
     margin: 0 auto 0.5%;
+}
+
+.red-stripe{
+    min-height: 3em;
+    background-color: #FF0000;
+}
+
+.shorten{
+    width: 25%;
+}
+
+.shortener{
+    width: 10%;
 }
